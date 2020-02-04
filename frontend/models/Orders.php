@@ -34,6 +34,7 @@ class Orders extends \yii\db\ActiveRecord
         return [
             [['ordered_by_id', 'ordered_food_id'], 'integer'],
             [['order_comment'], 'string', 'max' => 255],
+            [['order_quantity'], 'integer'],
             [['ordered_by_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['ordered_by_id' => 'id']],
             [['ordered_food_id'], 'exist', 'skipOnError' => true, 'targetClass' => Foods::className(), 'targetAttribute' => ['ordered_food_id' => 'food_id']],
         ];
@@ -47,6 +48,7 @@ class Orders extends \yii\db\ActiveRecord
         return [
             'order_id' => 'Order ID',
             'order_comment' => 'Order Comment',
+            'order_quantity' => 'Order Quantity',
             'ordered_by_id' => 'Ordered By ID',
             'ordered_food_id' => 'Ordered Food ID',
         ];

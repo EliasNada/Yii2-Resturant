@@ -17,6 +17,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'order_id') ?>
 
+    <?= $form->field($model, 'order_quantity') ?>
+
     <?= $form->field($model, 'order_comment') ?>
 
     <?= $form->field($model, 'ordered_by_id') ?>

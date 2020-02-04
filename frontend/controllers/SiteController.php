@@ -1,10 +1,12 @@
 <?php
 namespace frontend\controllers;
 
+use frontend\models\FoodcatSearch;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
+use yii\helpers\VarDumper;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -74,7 +76,14 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+//        Yii::$app->redis->get('categories');
+//        Yii::$app->redis->set('categories');
+            $searchModel = new FoodcatSearch();
+            $arrayDataProvider = $searchModel->search(Yii::$app->request->queryParams);
+            return $this->render('index', [
+                'searchModel' => $searchModel,
+                'arrayDataProvider' => $arrayDataProvider,
+            ]);
     }
 
     /**

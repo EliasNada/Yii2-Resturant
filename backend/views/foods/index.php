@@ -29,7 +29,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'food_id',
             'food_name',
             'food_available',
+            'food_price',
             'food_category',
+            [
+                    'attribute'=>"food_img",
+                    'value'=>function($model){
+                    return Yii::getAlias('@foodImgPath')."/".$model->food_img;
+                    },
+                    'format'=>["image",['width'=>'150','height'=>"150"]]
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

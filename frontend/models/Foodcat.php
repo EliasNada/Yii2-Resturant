@@ -39,10 +39,9 @@ class Foodcat extends \yii\db\ActiveRecord
     {
         return [
             'cat_id' => 'Cat ID',
-            'cat_name' => 'Category',
+            'cat_name' => 'Cat Name',
         ];
     }
-
 
     /**
      * @return \yii\db\ActiveQuery

@@ -10,6 +10,8 @@ use Yii;
  * @property int $food_id
  * @property string|null $food_name
  * @property int|null $food_available
+ * @property string|null $food_img
+ * @property float|null $food_price
  * @property int|null $food_category
  *
  * @property Foodcat $foodCategory
@@ -32,7 +34,8 @@ class Foods extends \yii\db\ActiveRecord
     {
         return [
             [['food_available', 'food_category'], 'integer'],
-            [['food_name'], 'string', 'max' => 255],
+            [['food_price'], 'number'],
+            [['food_name', 'food_img'], 'string', 'max' => 255],
             [['food_category'], 'exist', 'skipOnError' => true, 'targetClass' => Foodcat::className(), 'targetAttribute' => ['food_category' => 'cat_id']],
         ];
     }
@@ -46,6 +49,8 @@ class Foods extends \yii\db\ActiveRecord
             'food_id' => 'Food ID',
             'food_name' => 'Food Name',
             'food_available' => 'Food Available',
+            'food_img' => 'Food Img',
+            'food_price' => 'Food Price',
             'food_category' => 'Food Category',
         ];
     }

@@ -19,6 +19,7 @@ class FoodsSearch extends Foods
         return [
             [['food_id', 'food_available', 'food_category'], 'integer'],
             [['food_name'], 'safe'],
+            [['food_price'], 'number'],
         ];
     }
 
@@ -60,6 +61,7 @@ class FoodsSearch extends Foods
         $query->andFilterWhere([
             'food_id' => $this->food_id,
             'food_available' => $this->food_available,
+            'food_price' => $this->food_price,
             'food_category' => $this->food_category,
         ]);
 

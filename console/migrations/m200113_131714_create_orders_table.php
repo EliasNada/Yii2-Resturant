@@ -14,6 +14,7 @@ class m200113_131714_create_orders_table extends Migration
     {
         $this->createTable('{{%orders}}', [
             'order_id' => $this->primaryKey(),
+            'order_quantity'=> $this->integer(),
             'order_comment' => $this->string(),
             'ordered_by_id' => $this->integer(),
             'ordered_food_id' => $this->integer(),

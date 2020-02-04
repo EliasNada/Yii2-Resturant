@@ -1,7 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="651ba910-4f62-4307-976e-40ae97c53b46" name="Default Changelist" comment="" />
+    <list default="true" id="651ba910-4f62-4307-976e-40ae97c53b46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/web/images/foods/1613789709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/web/images/foods/1728185293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/web/images/foods/1861670082.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/web/images/foods/1945639485.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/models/FoodcatSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/views/foods/item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/images/foods/1613789709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/images/foods/1728185293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/images/foods/1861670082.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web/images/foods/1945639485.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/ActiveQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/ActiveRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/LuaScriptBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/Mutex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-redis/src/SocketException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yii-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii-task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/FoodcatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/FoodcatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/FoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/FoodsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/OrdersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Foodcat.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Foodcat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/FoodcatSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/FoodcatSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Foods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/FoodsSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/FoodsSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/OrdersSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/OrdersSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/UserSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/UserSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foodcat/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foodcat/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/foods/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/foods/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/orders/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/orders/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/migrations/m200113_090328_create_foods_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/migrations/m200113_090328_create_foods_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/migrations/m200113_131714_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/migrations/m200113_131714_create_orders_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/FoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/FoodsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/OrdersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/Foodcat.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/Foodcat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/Foods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/FoodsSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/FoodsSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/Orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/order_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/order_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/orderview.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/orderview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/foods/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/foods/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +108,60 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="yii: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="yii: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="foodcat: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="yii: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="foods: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="yii: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="orders: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -94,20 +244,32 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WKkBkR84cptLAkJzXzBqfn2Tod" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../masterpiece-project-JOB_PORTAL-master/Source Code" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/views/foods" />
+      <recent name="$PROJECT_DIR$/backend/web" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/backend/views" />
     </key>
   </component>
@@ -143,11 +305,23 @@
       <workItem from="1578987740146" duration="22802000" />
       <workItem from="1579074068201" duration="5244000" />
       <workItem from="1579079745079" duration="18926000" />
+      <workItem from="1579160033129" duration="21609000" />
+      <workItem from="1579419613781" duration="13986000" />
+      <workItem from="1579506184260" duration="14973000" />
+      <workItem from="1579536004373" duration="509000" />
+      <workItem from="1579590627194" duration="22720000" />
+      <workItem from="1579678539962" duration="2622000" />
+      <workItem from="1579772952303" duration="742000" />
+      <workItem from="1579783708887" duration="3139000" />
+      <workItem from="1580025658401" duration="1448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="27" width="700" height="741" key="#PHP" timestamp="1578925806096">
@@ -158,26 +332,58 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#SQL_Dialects/67.27.1299.741@67.27.1299.741" timestamp="1578989530972" />
-    <state x="408" y="201" width="607" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578924210782">
+    <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579169519530">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="408" y="201" width="607" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1578924210782" />
+    <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1579169519530" />
+    <state x="408" y="201" width="615" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579178340514">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="408" y="201" width="615" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1579178340514" />
     <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579079728580">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1299.741@67.27.1299.741" timestamp="1579079728580" />
-    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578996537426">
+    <state x="627" y="176" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579597518145">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1578996537426" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1579079749391">
+    <state x="627" y="176" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1579597518145" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579788356305">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579079749391" />
-    <state x="380" y="175" key="run.anything.popup" timestamp="1579011746569">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579788356305" />
+    <state width="856" height="175" key="GridCell.Tab.0.bottom" timestamp="1579170054420">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1579011746569" />
+    <state width="856" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579170054420" />
+    <state width="856" height="175" key="GridCell.Tab.0.center" timestamp="1579170054420">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="856" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579170054420" />
+    <state width="856" height="175" key="GridCell.Tab.0.left" timestamp="1579170054420">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="856" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579170054420" />
+    <state width="856" height="175" key="GridCell.Tab.0.right" timestamp="1579170054420">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="856" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579170054420" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1579169506538">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/67.27.1299.741@67.27.1299.741" timestamp="1579169506538" />
+    <state x="299" y="133" width="824" height="526" key="IDE.errors.dialog" timestamp="1579594145913">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="299" y="133" width="824" height="526" key="IDE.errors.dialog/67.27.1299.741@67.27.1299.741" timestamp="1579594145913" />
+    <state x="372" y="224" width="688" height="368" key="com.intellij.ide.util.TipDialog" timestamp="1580025696361">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" width="688" height="368" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1580025696361" />
+    <state x="380" y="175" key="run.anything.popup" timestamp="1579603660212">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1579603660212" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578999030445">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

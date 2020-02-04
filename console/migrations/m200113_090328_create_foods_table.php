@@ -16,6 +16,8 @@ class m200113_090328_create_foods_table extends Migration
             'food_id' => $this->primaryKey(),
             'food_name'=>$this->string(),
             'food_available'=>$this->tinyInteger(),
+            'food_img'=>$this->string(),
+            'food_price'=> $this->double(),
             'food_category'=>$this->integer(),
         ]);
         $this->addForeignKey(

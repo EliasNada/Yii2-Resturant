@@ -10,6 +10,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'order_comment')->textArea(['maxlength' => true]) ?>
+    <?= $form->field($model, 'order_quantity')->textInput(['type'=>'number','min'=>1,'value'=>1]) ?>
     <?= $form->field($model, 'ordered_by_id')->hiddenInput(['value'=> Yii::$app->user->id])->label(false) ?>
     <?= $form->field($model, 'ordered_food_id')->hiddenInput(['value'=> Yii::$app->request->get('id')])->label(false) ?>
 

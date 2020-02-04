@@ -2,12 +2,14 @@
 
 namespace backend\controllers;
 
+use app\models\UploadForm;
 use Yii;
 use app\models\Foods;
 use backend\models\FoodsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * FoodsController implements the CRUD actions for Foods model.
@@ -66,7 +68,13 @@ class FoodsController extends Controller
     {
         $model = new Foods();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $image = UploadedFile::getInstance($model, 'food_img');
+            $imageName= rand().'.'.$image->getExtension();
+            $image->saveAs(dirname(dirname(__DIR__)).'/frontend/web/images/foods/'.$imageName,false);
+            $image->saveAs(dirname(dirname(__DIR__)).'/backend/web/images/foods/'.$imageName);
+            $model->food_img=$imageName;
+            $model->save();
             return $this->redirect(['view', 'id' => $model->food_id]);
         }
 

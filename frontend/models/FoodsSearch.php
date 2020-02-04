@@ -2,9 +2,12 @@
 
 namespace frontend\models;
 
+use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use frontend\models\Foods;
+use yii\data\ArrayDataProvider;
+use yii\helpers\VarDumper;
 
 /**
  * FoodsSearch represents the model behind the search form of `frontend\models\Foods`.
@@ -36,36 +39,36 @@ class FoodsSearch extends Foods
      *
      * @param array $params
      *
-     * @return ActiveDataProvider
+     * @return ActiveDataProvider|ArrayDataProvider
      */
     public function search($params)
     {
-        $query = Foods::find();
 
-        // add conditions that should always apply here
+//        Yii::$app->redis->set('categories',serialize($foods));
 
-        $dataProvider = new ActiveDataProvider([
-            'query' => $query,
-        ]);
+//        VarDumper::dump($params,100,true);die();
 
-
-        $this->load($params);
-
-        if (!$this->validate()) {
-            // uncomment the following line if you do not want to return any records when validation fails
-            // $query->where('0=1');
-            return $dataProvider;
+        if(array_key_exists('cat', $params)){
+            $query = Foods::find()->where("food_available=1 AND food_category=:id",['id'=>$params['cat']]);
+        }else{
+            $query = Foods::find()->where("food_available=1");
         }
 
-        // grid filtering conditions
-        $query->andFilterWhere([
-            'food_id' => $this->food_id,
-            'food_available' => $this->food_available,
-            'food_category' => $this->food_category,
+
+        $foods=$query->all();
+        // add conditions that should always apply here
+
+        //
+//        $this->load($params);
+//
+//        if (!$this->validate()) {
+//            // uncomment the following line if you do not want to return any records when validation fails
+//            // $query->where('0=1');
+//            return $dataProvider;
+//        }
+
+        return new ArrayDataProvider([
+            'allModels' => $foods,
         ]);
-
-        $query->andFilterWhere(['like', 'food_name', $this->food_name]);
-
-        return $dataProvider;
     }
 }

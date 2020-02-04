@@ -10,6 +10,10 @@ $this->title = $model->food_id;
 $this->params['breadcrumbs'][] = ['label' => 'Foods', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
+
+$url = Yii::getAlias('@foodImgPath')."/".$model->food_img;
+$img = '<img src="'.$url.'" width="250" height="250">'
+
 ?>
 <div class="foods-view">
 
@@ -32,7 +36,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'food_id',
             'food_name',
             'food_available',
+            'food_price',
             'food_category',
+            [
+                    'attribute'=>"food_img",
+                    'value'=> Yii::getAlias('@foodImgPath')."/".$model->food_img,
+                    'format'=>["image",['width'=>'150','height'=>"150"]]
+            ]
         ],
     ]) ?>
 

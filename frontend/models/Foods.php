@@ -32,7 +32,7 @@ class Foods extends \yii\db\ActiveRecord
         return [
             [['food_available', 'food_category'], 'integer'],
             [['food_name'], 'string', 'max' => 255],
-            [['food_category'], 'exist', 'skipOnError' => true, 'targetClass' => Foodcat::className(), 'targetAttribute' => ['food_category' => 'cat_id']],
+            [['food_category'], 'exist', 'skipOnError' => true, 'targetClass' => Foodcat::class, 'targetAttribute' => ['food_category' => 'cat_id']],
 
         ];
     }
@@ -47,7 +47,6 @@ class Foods extends \yii\db\ActiveRecord
             'food_name' => 'Food Name',
             'food_available' => 'Food Available',
             'food_category' => 'Food Category',
-
         ];
     }
 
@@ -56,6 +55,6 @@ class Foods extends \yii\db\ActiveRecord
      */
     public function getFoodCategory()
     {
-        return $this->hasOne(Foodcat::className(), ['cat_id' => 'food_category']);
+        return $this->hasOne(Foodcat::class, ['cat_id' => 'food_category']);
     }
 }

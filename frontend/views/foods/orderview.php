@@ -22,8 +22,17 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'order_id',
             'order_comment',
+            'order_quantity',
             'orderedBy.username',
             'orderedFood.food_name',
+            [
+                    'label'=>"Ordered Food Price",
+                    'value'=>$model->orderedFood->food_price . ' JD'
+            ],
+            [
+                'label' => '<h3>Total</h3>',
+                'value' => $model->order_quantity * $model->orderedFood->food_price . ' JD',
+            ],
         ],
     ]) ?>
 

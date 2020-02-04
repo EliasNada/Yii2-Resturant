@@ -17,7 +17,7 @@ class OrdersSearch extends Orders
     public function rules()
     {
         return [
-            [['order_id', 'ordered_by_id', 'ordered_food_id'], 'integer'],
+            [['order_id', 'order_quantity', 'ordered_by_id', 'ordered_food_id'], 'integer'],
             [['order_comment'], 'safe'],
         ];
     }
@@ -59,6 +59,7 @@ class OrdersSearch extends Orders
         // grid filtering conditions
         $query->andFilterWhere([
             'order_id' => $this->order_id,
+            'order_quantity' => $this->order_quantity,
             'ordered_by_id' => $this->ordered_by_id,
             'ordered_food_id' => $this->ordered_food_id,
         ]);

@@ -21,6 +21,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'food_available') ?>
 
+    <?= $form->field($model, 'food_price') ?>
+
     <?= $form->field($model, 'food_category') ?>
 
     <div class="form-group">
